@@ -37,6 +37,13 @@ cd LLaMA-Factory
 pip install -e ".[torch,metrics]" --no-build-isolation
 ```
 
+Clone and install [GEO-BLEU](https://github.com/yahoojapan/geobleu):
+```bash
+git clone https://github.com/yahoojapan/geobleu.git
+cd geobleu
+pip3 install .
+```
+
 ---
 
 ## 🚀 Usage
