@@ -2,8 +2,7 @@
 
 Code for **"Building Efficient LLM Pipeline for Human Mobility Prediction"**
 
-This repository provides an end-to-end pipeline for **human mobility prediction** using **Large Language Models (LLMs)**.  
-It covers data preprocessing, prompt generation, baseline methods, model fine-tuning, prediction formatting, and evaluation.
+This repository provides an end-to-end pipeline for **human mobility prediction** using **LLMs**.  
 
 ---
 
