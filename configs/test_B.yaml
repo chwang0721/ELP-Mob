@@ -1,0 +1,22 @@
+model_name_or_path: ../Llama-3.2-3B-Instruct
+adapter_name_or_path: saves/llama-3.2-3b_B/
+output_dir: ./outputs/B_test
+
+stage: sft
+do_predict: true
+finetuning_type: lora
+
+eval_dataset: B_test
+dataset_dir: ./prompts/
+template: llama3
+cutoff_len: 4096
+overwrite_cache: true
+
+preprocessing_num_workers: 16
+overwrite_output_dir: true
+per_device_eval_batch_size: 4
+predict_with_generate: true
+
+temperature: 0.1
+top_p: 1
+top_k: 200
