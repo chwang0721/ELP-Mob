@@ -2,7 +2,13 @@
 
 Code for **"Building Efficient LLM Pipeline for Human Mobility Prediction"**
 
-This repository provides an end-to-end pipeline for **human mobility prediction** using **LLMs**.  
+This repository provides an end-to-end pipeline for human mobility prediction using LLMs.  
+Our approach achieved **6th place** in the GISCUP 2025 competition, with performance results as follows:
+
+
+| **Mean** | **City A** | **City B** | **City C** | **City D** |
+|----------|------------|------------|------------|------------|
+| 0.15002  | 0.13719    | 0.13286    | 0.16767    | 0.16237    |
 
 ---
 
