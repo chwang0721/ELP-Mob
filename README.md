@@ -3,7 +3,7 @@
 Code for **"Building Efficient LLM Pipeline for Human Mobility Prediction"**
 
 This repository provides an end-to-end pipeline for human mobility prediction using LLMs.  
-Our approach achieved **6th place** in the **[GISCUP 2025](https://sigspatial2025.sigspatial.org/giscup/index.html)** competition, with performance results as follows:
+Our approach achieved **6th place** in the **[GISCUP 2025](https://sigspatial2025.sigspatial.org/giscup/index.html)** competition ([Final Results](https://sigspatial2025.sigspatial.org/giscup/finalResults.html)), with performance results as follows:
 
 
 | **Mean** | **City A** | **City B** | **City C** | **City D** |
