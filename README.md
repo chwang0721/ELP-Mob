@@ -88,3 +88,15 @@ python baselines.py --dataset {city_name} --mode test
 llamafactory-cli train ./configs/test_{city_name}.yaml
 python predictions_to_csv.py --dataset {city_name} --mode test
 ```
+
+### Citation
+Please kindly cite our work if you find our paper or codes helpful.
+```
+@inproceedings{wang2025building,
+  title={Building Efficient LLM Pipeline for Human Mobility Prediction},
+  author={Wang, Chenhao and Zhou, Silin and Chen, Lisi and Shang, Shuo},
+  booktitle={Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems},
+  pages={1230--1233},
+  year={2025}
+}
+```
